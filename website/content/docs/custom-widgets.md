@@ -154,7 +154,7 @@ CMS.registerEditorComponent({
   fromBlock: function(match) {
     return {
       summary: match[1],
-      detail: match[2]
+      details: match[2]
     };
   },
   // Given an object with one property for each field defined in `fields`,
@@ -167,7 +167,7 @@ CMS.registerEditorComponent({
 <details>
   <summary>${data.summary}</summary>
 
-  ${data.detail}
+  ${data.details}
 
 </details>
 `;
@@ -179,7 +179,7 @@ CMS.registerEditorComponent({
 <details>
   <summary>${data.summary}</summary>
 
-  ${data.detail}
+  ${data.details}
 
 </details>
 `;
